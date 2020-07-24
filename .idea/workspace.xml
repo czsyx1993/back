@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05bc6f1b-6c27-4c80-a749-fd9b770c8041" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\softwares\install\maven_repos" />
+        <option name="mavenHome" value="G:/Program Files (x86)/apache-maven-3.3.9-ta3" />
+        <option name="userSettingsFile" value="G:\Program Files (x86)\apache-maven-3.3.9-ta3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8 (1)" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1exQ3hn01F7aMrMO4LtjprXns5U" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15319549" />
+    <property name="project.structure.side.proportion" value="0.32762095" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\中台\中台\04.Implement\back\common\src\main\resources" />
+      <recent name="D:\中台\中台\04.Implement\back\startsystem\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yinhai.common.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\中台\中台\04.Implement\back\common\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StartsystemApplication">
+    <configuration name="BcpUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yinhai.common.util.BcpUtil" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yinhai.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileManageUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yinhai.common.util.FileManageUtil" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yinhai.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHttp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yinhai.common.TestHttp" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yinhai.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartsystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="startsystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yinhai.StartsystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileManageUtil" />
+        <item itemvalue="Application.BcpUtil" />
+        <item itemvalue="Application.TestHttp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.0746888" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05bc6f1b-6c27-4c80-a749-fd9b770c8041" name="Default Changelist" comment="" />
+      <created>1591236239378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591236239378</updated>
+      <workItem from="1591236240711" duration="3638000" />
+      <workItem from="1591239993679" duration="2099000" />
+      <workItem from="1591242504875" duration="20000" />
+      <workItem from="1591242534813" duration="333000" />
+      <workItem from="1591253940166" duration="492000" />
+      <workItem from="1591319953563" duration="1819000" />
+      <workItem from="1591688098755" duration="840000" />
+      <workItem from="1591692729801" duration="7254000" />
+      <workItem from="1591752122910" duration="2688000" />
+      <workItem from="1591755362335" duration="10159000" />
+      <workItem from="1591837993907" duration="3675000" />
+      <workItem from="1591863852667" duration="33000" />
+      <workItem from="1592184390442" duration="1651000" />
+      <workItem from="1592270119400" duration="1235000" />
+      <workItem from="1592357566315" duration="2131000" />
+      <workItem from="1592443484591" duration="1245000" />
+      <workItem from="1592532520184" duration="3011000" />
+      <workItem from="1592550908034" duration="1104000" />
+      <workItem from="1592702761756" duration="22000" />
+      <workItem from="1593306854119" duration="11499000" />
+      <workItem from="1593344358395" duration="137000" />
+      <workItem from="1593345926621" duration="466000" />
+      <workItem from="1593414317167" duration="7338000" />
+      <workItem from="1593479510791" duration="1352000" />
+      <workItem from="1593566506364" duration="2673000" />
+      <workItem from="1595260568953" duration="1417000" />
+      <workItem from="1595262050626" duration="226000" />
+      <workItem from="1595262565879" duration="1269000" />
+      <workItem from="1595292989554" duration="7907000" />
+      <workItem from="1595313084562" duration="32000" />
+      <workItem from="1595468732376" duration="4917000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="261" y="0" key="#Custom_Plugin_Repositories" timestamp="1595261958367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="0" key="#Custom_Plugin_Repositories/0.0.1536.824@0.0.1536.824" timestamp="1595261958367" />
+    <state x="206" y="61" width="1330" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595261102195">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="206" y="61" width="1330" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595261102195" />
+    <state x="585" y="295" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1595263043507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="585" y="295" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1595263043507" />
+    <state x="499" y="111" key="FileChooserDialogImpl" timestamp="1595262255633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="111" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595262255633" />
+    <state width="1337" height="447" key="GridCell.Tab.0.bottom" timestamp="1595498274510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1337" height="447" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595498274510" />
+    <state width="1337" height="447" key="GridCell.Tab.0.center" timestamp="1595498274510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1337" height="447" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595498274510" />
+    <state width="1337" height="447" key="GridCell.Tab.0.left" timestamp="1595498274510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1337" height="447" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595498274510" />
+    <state width="1337" height="447" key="GridCell.Tab.0.right" timestamp="1595498274510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1337" height="447" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595498274510" />
+    <state width="1337" height="447" key="GridCell.Tab.1.bottom" timestamp="1595498274511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1337" height="447" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595498274511" />
+    <state width="1337" height="447" key="GridCell.Tab.1.center" timestamp="1595498274510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1337" height="447" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595498274510" />
+    <state width="1337" height="447" key="GridCell.Tab.1.left" timestamp="1595498274510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1337" height="447" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595498274510" />
+    <state width="1337" height="447" key="GridCell.Tab.1.right" timestamp="1595498274511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1337" height="447" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595498274511" />
+    <state x="154" y="0" key="SettingsEditor" timestamp="1595262120037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="154" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595262120037" />
+    <state x="391" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1595313098568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="196" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595313098568" />
+    <state x="305" y="43" width="926" height="738" key="find.popup" timestamp="1595472406676">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="305" y="43" width="926" height="738" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1595472406676" />
+    <state x="0" y="41" key="new project wizard" timestamp="1595293059553">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="41" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1595293059553" />
+    <state x="341" y="0" width="838" height="822" key="search.everywhere.popup" timestamp="1595472397772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="0" width="838" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595472397772" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/back$StartsystemApplication.ic" NAME="StartsystemApplication Coverage Results" MODIFIED="1593416211379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32762095" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (startsystem)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32762095" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32762095" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32762095" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32762095" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.yinhai:common:0.0.1-SNAPSHOT</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32762095" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

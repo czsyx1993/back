@@ -1,0 +1,13 @@
+ta404:
+  database:
+    transaction:
+      log: true
+      #启动事务类检测，只检测以下包路径开头的类
+      packageStartCheck: com.yinhai
+  modules:
+    refresh-mapper-xml:
+      enabled: true
+    websecurity:
+      url-patter: (.*?)
+
+

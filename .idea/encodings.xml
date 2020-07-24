@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/emp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ins/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ins/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/startsystem" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/train/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

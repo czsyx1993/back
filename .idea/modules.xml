@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/backsystem.iml" filepath="$PROJECT_DIR$/backsystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emp/emp.iml" filepath="$PROJECT_DIR$/emp/emp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esp/esp.iml" filepath="$PROJECT_DIR$/esp/esp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funds/funds.iml" filepath="$PROJECT_DIR$/funds/funds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrm/hrm.iml" filepath="$PROJECT_DIR$/hrm/hrm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ins/ins.iml" filepath="$PROJECT_DIR$/ins/ins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startsystem/startsystem.iml" filepath="$PROJECT_DIR$/startsystem/startsystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/train/train.iml" filepath="$PROJECT_DIR$/train/train.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,88 @@
+ta404:
+  database:
+    mybatis:
+      datasourceList: ta404ds
+      ta404ds:
+        datasourceType: druid #druid, localJndi, weblogicJndi
+        page-dialect: oracle  #分页方言oracle,mysql,postgresql,sqlserver,informix,dm
+#        url: jdbc:oracle:thin:@//192.168.26.60:1521/kf46
+        url: jdbc:oracle:thin:@//127.0.0.1:1521/orcl
+#        username: ldjy_ta
+#        password: ldjy_ta
+        username: c##ta404
+        password: ta404
+        driverClassName: oracle.jdbc.driver.OracleDriver
+        minIdle: 5
+        mappers:
+          - com.yinhai.ta404.module.mybatis.mapper
+          - com.yinhai.ta404.module.**.mapper.read
+          - com.yinhai.ta404.module.**.mapper.write
+          - com.yinhai.ta404.component.**.mapper.read
+          - com.yinhai.ta404.component.**.mapper.write
+          # 公共模块
+          - com.yinhai.common.**.mapper.read
+          - com.yinhai.common.**.mapper.write
+          # 档案模块
+          - com.yinhai.archsys.**.mapper.read
+          - com.yinhai.archsys.**.mapper.write
+          # 就业服务模块
+          - com.yinhai.emplsys.**.mapper.read
+          - com.yinhai.emplsys.**.mapper.write
+          # 第三方培训模块
+          - com.yinhai.traisys.**.mapper.read
+          - com.yinhai.traisys.**.mapper.write
+        type-aliases-package:
+          - com.yinhai.ta404.component.**.entity
+          - com.yinhai.archsys.**.entity
+          - com.yinhai.archsys.**.vo
+          - com.yinhai.emplsys.**.entity
+          - com.yinhai.emplsys.**.vo
+          - com.yinhai.traisys.**.entity
+          - com.yinhai.traisys.**.vo
+        mapper-locations:
+          - classpath*:mapper/read/*.xml
+          - classpath*:mapper/write/*.xml
+        transaction: #用于扩展事务管理器属性
+          enforceReadOnly: true #表示DataSourceTrasactionManager支持只读事务，某些数据库不支持此属性，需要关闭
+      #        sqlsessionfactory: #用于扩展sqlSessionFactory属性
+  component:
+    security:
+      # 是否开启 security认证
+      openSecurityManager: true
+      # 是否启用密码rsa加密
+      passwordRSA: true
+      # 数据库密码加密类型(BCrypt(默认加密方式),MD5,Sm2,Sm3,Sm4)
+      dbEncoderType: BCrypt
+      # 是否开启application/json处理filter
+      openJsonFilter: true
+      # 第一次登录是否修改密码
+      passwordFirstLogin: false
+      # 同一个账户最多在几个地方登录,-1表示不限制
+      maximumSessions: -1
+      # 密码错误锁账户次数
+      passwordMaxFaultNumber: 5
+      # 密码过期时间(天)
+      passwordUsefulLife: 30
+      # 登录接口地址
+      loginProcessingUrl: /login
+      # 退出登录地址
+      logoutUrl: /logout
+      # 无需登录即可访问地址
+      permitUrls:
+        - /xxx/*
+      # 登录后任意角色即可访问地址
+      loginPermitUrls:
+        - /xxx/*
+      password-policy-list:
+        # 可以实现自动进行按大小排序,但是errorNum不能设置为一样的,可以无限扩展加,只要符合数据,且锁定时间应该跟随次数上升进行递增才对
+        # 如果输错6次,就会将账号锁定2分钟才会进行解锁
+        - errorNum: 6
+          lockTime: 2
+          # 2分钟内如果输错4次,就会锁定账号一分钟
+        - errorNum: 4 #单位:次
+          lockTime: 1 #锁定一分钟,单位:分钟
+          timeInterval: 2 #单位:分钟
+          # 如果密码输错达到8次,那么就会进行永久锁定
+        - errorNum: 8
+          # -1代表永久锁定
+          lockTime: -1
