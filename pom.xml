@@ -36,7 +36,7 @@
         <ojdbc.version>8.0</ojdbc.version>
         <springboot.starter.version>2.1.6.RELEASE</springboot.starter.version>
         <cxf.version>3.0.9</cxf.version>
-        <apache.poi.version>3.14</apache.poi.version>
+        <apache.poi.version>4.1.1</apache.poi.version>
         <activiti.version>5.22.0</activiti.version>
     </properties>
 
